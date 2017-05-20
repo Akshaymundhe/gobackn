@@ -9,7 +9,7 @@ public class chatserver
 	int i=1;		
 	String message = null;	
 	ss = new ServerSocket(10008);
-	System.out.println("Server socket is created and waiting for client");
+	System.out.println("Server    socket is created and waiting for client");
 		
 	socket = ss.accept();		
 	DataOutputStream ostream = new DataOutputStream(socket.getOutputStream());
